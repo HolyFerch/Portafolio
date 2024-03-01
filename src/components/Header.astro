@@ -1,0 +1,36 @@
+---
+import HomeIcon from "../components/icons/HomeIcon.astro";
+import Yo from "../components/icons/Yo.astro";
+import ExperienceIcon from "../components/icons/ExperienceIcon.astro";
+import CVIcon from "../components/icons/CVIcon.astro";
+import ContactoIcon from "../components/icons/ContactoIcon.astro";
+---
+
+<header class="flex justify-center items-center px-10 py-10 w-full xl:w-[1120px] mx-auto">
+    <nav class="flex flex-row gap-x-10">
+        <a href="#top" class="flex flex-row gap-x-2">
+            <HomeIcon />
+            Home
+        </a>
+        <a href="#sobre-mi" class="flex flex-row gap-x-2">
+            <Yo />
+            Sobre mí
+        </a>
+        <a href="#experiencia" class="flex flex-row gap-x-2">
+            <ExperienceIcon />
+            Experiencia Laboral
+        </a>
+        <a
+            href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:de57fc53-3345-461e-a07f-b603a7d8534b"
+            target="_blank"
+            class="flex flex-row gap-x-2"
+        >
+            <CVIcon />
+            Curriculum Vitae
+        </a>
+        <a href="/" class="flex flex-row gap-x-2">
+            <ContactoIcon />
+            Contacto
+        </a>
+    </nav>
+</header>
