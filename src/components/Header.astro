@@ -6,9 +6,14 @@ import CVIcon from "../components/icons/CVIcon.astro";
 import ContactoIcon from "../components/icons/ContactoIcon.astro";
 ---
 
-<header class="flex w-full py-14">
+<header class="flex w-full py-12">
     <nav
-        class="flex flex-row justify-center items-center gap-x-6 sm:w-[500px] xl:w-[1120px] mx-auto"
+        class="flex flex-row
+        justify-center items-center
+        gap-x-6 mx-auto
+        sm:w-[500px]
+        md:w-[680px]
+        xl:w-[1120px]"
     >
         <a href="#top" class="flex flex-row gap-x-2">
             <HomeIcon />
@@ -30,7 +35,7 @@ import ContactoIcon from "../components/icons/ContactoIcon.astro";
             <CVIcon />
             Curriculum Vitae
         </a>
-        <a href="/" class="flex flex-row gap-x-2">
+        <a href="mailto:fernando.rios10@hotmail.com" class="flex flex-row gap-x-2">
             <ContactoIcon />
             Contacto
         </a>
